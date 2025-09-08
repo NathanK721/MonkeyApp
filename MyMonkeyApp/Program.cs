@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using MyMonkeyApp.Ui;
+
+// Show header at startup
+DisplayHelper.ShowHeader();
+
+// Showing monkey details with ASCII art
+DisplayHelper.ShowMonkeyDetails("George", 5, "Banana", true);
